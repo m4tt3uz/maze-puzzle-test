@@ -1,9 +1,9 @@
-FROM python:2.7
+FROM python:3.5
 
-RUN mkdir -p /usr/src/app
-COPY . /usr/src/app
-RUN chmod -R 777 /usr/src/app
+RUN mkdir -p /usr/src/maze-puzzle
+COPY . /usr/src/maze-puzzle
+RUN chmod -R 777 /usr/src/maze-puzzle
 
-WORKDIR /usr/src/app
+WORKDIR /usr/src/maze-puzzle
 RUN pip install -r requirements.txt
-ENTRYPOINT ["python", "App.py"]
+ENTRYPOINT ["python", "maze.py"]
