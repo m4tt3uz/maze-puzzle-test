@@ -5,5 +5,5 @@ COPY . /usr/src/maze-puzzle
 RUN chmod -R 777 /usr/src/maze-puzzle
 
 WORKDIR /usr/src/maze-puzzle
-RUN pip install -r requirements.txt
+RUN pip3 install -r requirements.txt
 ENTRYPOINT ["python", "maze.py"]
