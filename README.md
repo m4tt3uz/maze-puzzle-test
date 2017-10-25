@@ -64,7 +64,6 @@ Another example is:
 }
 
 ```
-
 This is correct result:
 ```
 +----+-------------+----------------+
