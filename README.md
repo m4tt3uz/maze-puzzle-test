@@ -90,10 +90,8 @@ This is correct result:
 +----+-------------+----------------+
 ```
 
-
-
-# Internal Docker Folder: /usr/src/app/
-docker run --rm -v /path/your_file.json:/usr/src/maze-puzzle/MY_DATA.json matteuz/maze-puzzle-test /usr/src/maze-puzzle/YOUR_DATA.json START "OBJ 1" "OBJ 2"
+To run via docker, please use following:
+docker run --rm -v /PATH/FILE.json:/usr/src/maze-puzzle/MY_DATA.json matteuz/maze-puzzle-test /usr/src/maze-puzzle/YOUR_DATA.json START "OBJ 1" "OBJ 2"
 
 
 Go to https://hub.docker.com/r/matteuz/maze-puzzle-test/ for details about Docker.
